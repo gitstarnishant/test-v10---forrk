@@ -1,0 +1,523 @@
+{
+	"info": {
+		"_postman_id": "a28573c9-8728-45f1-8fc6-4afc4376c986",
+		"name": "Starter Kit API",
+		"description": "#### Documentazione\nQui devi inserire la documentazione principale del servizio.\nIl testo dev'essere diviso in piu' parti, tutte scritte in Markdown.\n\nQuesta sezione e' informativa:\n\n  * cosa fanno queste API?\n  * chi puo' beneficiarne?\n  * perche' sono utili?\n\n##### Sottosezioni\nE' possibile utilizzare - con criterio - delle sottosezioni.\n\n#### Note\n\nUsa questa sezione per annotazioni specifiche, riferimenti normativi e/o\nper manleve ed esclusioni di responsabilita' eventualmente non incluse in `termsOfService`.\n\n#### Informazioni tecniche ed esempi\n\nQui e' possibile introdurre brevi informazioni tecniche ed esempi.\nAttenzione: la `description` non sostituisce la documentazione di progetto,\ndeve pero' facilitare l'esecuzione delle prime richieste.\n\n\nContact Support:\n Name: Roberto Polli\n Email: robipolli@gmail.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "indicepa",
+			"item": [
+				{
+					"name": "Ricerca una PA per nome.",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/indicepa?name=Latina",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"indicepa"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Latina",
+									"description": "(Required) La stringa da ricercare nel nome dell'amministrazione."
+								}
+							]
+						},
+						"description": "Si connette ad IndicePA e ricerca una PA per nome.\n"
+					},
+					"response": [
+						{
+							"name": "La PA e' stata trovata e le informazioni sono state recuperate\ncon successo.\n",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "X-RateLimit-Reset",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{}"
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "Too Many Requests",
+							"code": 429,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "Service Unavailable",
+							"code": 503,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa?name=Latina",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Latina"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Recupera le informazioni su una PA.",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/indicepa/:ipa_code",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"indicepa",
+								":ipa_code"
+							],
+							"variable": [
+								{
+									"key": "ipa_code",
+									"value": "asl_lt",
+									"description": "(Required) Il codice IPA dell'amministrazione."
+								}
+							]
+						},
+						"description": "Si connette ad IndicePA e recupera le informazioni su\nun'amministrazione tramite il codice IPA.\n"
+					},
+					"response": [
+						{
+							"name": "La PA e' stata trovata e le informazioni sono state recuperate\ncon successo.\n",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "X-RateLimit-Reset",
+									"value": "",
+									"description": ""
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{}"
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "Too Many Requests",
+							"code": 429,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "Service Unavailable",
+							"code": 503,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Untitled Example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/indicepa/:ipa_code",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"indicepa",
+										":ipa_code"
+									],
+									"variable": [
+										{
+											"key": "ipa_code",
+											"value": "asl_lt",
+											"description": "(Required) Il codice IPA dell'amministrazione."
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://api.example.com/ipa/v1",
+			"type": "string"
+		}
+	]
+}
