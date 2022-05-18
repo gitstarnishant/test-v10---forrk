@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1.0.0'
-  title: 'my-api'
+  title: 'my-api-123'
   license:
     name: MIT
 servers:
