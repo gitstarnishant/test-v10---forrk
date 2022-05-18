@@ -1,16 +1,17 @@
 {
 	"info": {
-		"_postman_id": "a28573c9-8728-45f1-8fc6-4afc4376c986",
+		"_postman_id": "3692b7d5-620a-46a2-ba29-20db218bc91c",
 		"name": "Starter Kit API",
 		"description": "#### Documentazione\nQui devi inserire la documentazione principale del servizio.\nIl testo dev'essere diviso in piu' parti, tutte scritte in Markdown.\n\nQuesta sezione e' informativa:\n\n  * cosa fanno queste API?\n  * chi puo' beneficiarne?\n  * perche' sono utili?\n\n##### Sottosezioni\nE' possibile utilizzare - con criterio - delle sottosezioni.\n\n#### Note\n\nUsa questa sezione per annotazioni specifiche, riferimenti normativi e/o\nper manleve ed esclusioni di responsabilita' eventualmente non incluse in `termsOfService`.\n\n#### Informazioni tecniche ed esempi\n\nQui e' possibile introdurre brevi informazioni tecniche ed esempi.\nAttenzione: la `description` non sostituisce la documentazione di progetto,\ndeve pero' facilitare l'esecuzione delle prime richieste.\n\n\nContact Support:\n Name: Roberto Polli\n Email: robipolli@gmail.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "indicepa",
+			"name": "indicepammm",
 			"item": [
 				{
 					"name": "Ricerca una PA per nome.",
+					"id": "989a8bef-080d-4e8c-9be2-63278474a2fb",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -39,6 +40,7 @@
 					},
 					"response": [
 						{
+							"id": "94f515b1-15c3-4336-a451-5e2f901f7e30",
 							"name": "La PA e' stata trovata e le informazioni sono state recuperate\ncon successo.\n",
 							"originalRequest": {
 								"method": "GET",
@@ -84,9 +86,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": "{}"
 						},
 						{
+							"id": "68f3404c-2204-4e83-a0d0-df9bdff0d62f",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -117,9 +121,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "8d079a90-d6f3-4599-9455-dc01421ab2c1",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -150,9 +156,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "df4ff89e-a254-4a44-a107-4e8a7782271f",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -183,9 +191,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "21cc8dac-e9bd-4901-8922-3843793723b8",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -216,9 +226,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "53e53491-4e6b-4d3e-a869-38d51c972bf0",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -249,12 +261,14 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						}
 					]
 				},
 				{
 					"name": "Recupera le informazioni su una PA.",
+					"id": "69ad7e48-816f-4c79-8920-9c32a6deb8f3",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -274,6 +288,7 @@
 							],
 							"variable": [
 								{
+									"id": "cd2d53c8-f6be-4538-9dc0-301f1505701b",
 									"key": "ipa_code",
 									"value": "asl_lt",
 									"description": "(Required) Il codice IPA dell'amministrazione."
@@ -284,6 +299,7 @@
 					},
 					"response": [
 						{
+							"id": "cd2643d3-5690-4a3c-acc3-c0021094026d",
 							"name": "La PA e' stata trovata e le informazioni sono state recuperate\ncon successo.\n",
 							"originalRequest": {
 								"method": "GET",
@@ -331,9 +347,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": "{}"
 						},
 						{
+							"id": "2d3b169f-3052-4a72-a786-deb70e31b329",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -366,9 +384,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "d828308b-c704-4b9c-b472-1548341209be",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -401,9 +421,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "ca17f702-3657-430e-84e6-65f3b668b8fc",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -436,9 +458,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "c85f944f-cc98-472c-b717-df596c8df6e4",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -471,9 +495,11 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						},
 						{
+							"id": "68bb422e-2428-4881-bc1b-c24e6464bf18",
 							"name": "Untitled Example",
 							"originalRequest": {
 								"method": "GET",
@@ -506,15 +532,18 @@
 								}
 							],
 							"cookie": [],
+							"responseTime": null,
 							"body": ""
 						}
 					]
 				}
-			]
+			],
+			"id": "37217dda-e5e0-4261-aa02-f15076daec09"
 		}
 	],
 	"variable": [
 		{
+			"id": "1bf44881-6945-434a-b3d3-7f20b780dd03",
 			"key": "baseUrl",
 			"value": "https://api.example.com/ipa/v1",
 			"type": "string"
