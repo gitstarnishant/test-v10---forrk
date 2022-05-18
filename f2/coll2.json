@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "a28573c9-8728-45f1-8fc6-4afc4376c986",
-		"name": "Starter Kit API",
+		"name": "c2",
 		"description": "#### Documentazione\nQui devi inserire la documentazione principale del servizio.\nIl testo dev'essere diviso in piu' parti, tutte scritte in Markdown.\n\nQuesta sezione e' informativa:\n\n  * cosa fanno queste API?\n  * chi puo' beneficiarne?\n  * perche' sono utili?\n\n##### Sottosezioni\nE' possibile utilizzare - con criterio - delle sottosezioni.\n\n#### Note\n\nUsa questa sezione per annotazioni specifiche, riferimenti normativi e/o\nper manleve ed esclusioni di responsabilita' eventualmente non incluse in `termsOfService`.\n\n#### Informazioni tecniche ed esempi\n\nQui e' possibile introdurre brevi informazioni tecniche ed esempi.\nAttenzione: la `description` non sostituisce la documentazione di progetto,\ndeve pero' facilitare l'esecuzione delle prime richieste.\n\n\nContact Support:\n Name: Roberto Polli\n Email: robipolli@gmail.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
