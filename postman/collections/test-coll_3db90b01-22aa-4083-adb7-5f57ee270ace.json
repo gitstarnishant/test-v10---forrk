@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "70baf434-9e8a-48e0-8fbf-7458b78260ad",
-		"name": "test2",
+		"_postman_id": "20e05deb-74ce-4a1e-a1a5-d116c9789004",
+		"name": "test-coll",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "d690953f-5359-47f6-a78c-72aead710cac",
+			"id": "87b850af-769c-4038-a64f-3727fdef3828",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -17,7 +17,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/user?id=32544593",
+					"raw": "{{baseUrl}}/user?id=-95280876",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -27,7 +27,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "32544593",
+							"value": "-95280876",
 							"description": "(Required) ID of the user"
 						}
 					]
@@ -35,7 +35,7 @@
 			},
 			"response": [
 				{
-					"id": "bae13f46-31c8-4b6a-bad0-9ec5fdf659a7",
+					"id": "76c3bf06-d6e2-4bbb-b414-82181a932cd8",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -47,7 +47,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/user?id=32544593",
+							"raw": "{{baseUrl}}/user?id=-95280876",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -57,7 +57,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "32544593"
+									"value": "-95280876"
 								}
 							]
 						}
@@ -70,7 +70,7 @@
 							"disabled": false,
 							"description": "A link to the next page of responses",
 							"key": "x-next",
-							"value": "consectetur adipisicing"
+							"value": "aliqua laboris mollit non"
 						},
 						{
 							"key": "Content-Type",
@@ -79,10 +79,10 @@
 					],
 					"cookie": [],
 					"responseTime": null,
-					"body": "{\n  \"id\": 2401485,\n  \"name\": \"commodo amet Lorem\",\n  \"tag\": \"mollit\"\n}"
+					"body": "{\n  \"id\": 1122100,\n  \"name\": \"ut mollit non minim\",\n  \"tag\": \"labore dolor irure\"\n}"
 				},
 				{
-					"id": "caf4643f-91d2-4d63-a2fc-c6fed309ed48",
+					"id": "e1eca2d9-3334-46b8-9c0a-7cd52294a65a",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -94,7 +94,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/user?id=32544593",
+							"raw": "{{baseUrl}}/user?id=-95280876",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -104,7 +104,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "32544593"
+									"value": "-95280876"
 								}
 							]
 						}
@@ -120,7 +120,7 @@
 					],
 					"cookie": [],
 					"responseTime": null,
-					"body": "{\n  \"code\": 79906238,\n  \"message\": \"eu ad id\"\n}"
+					"body": "{\n  \"code\": 49395134,\n  \"message\": \"sed magna proident\"\n}"
 				}
 			]
 		}
@@ -142,7 +142,7 @@
 	},
 	"variable": [
 		{
-			"id": "18cfe2f1-a059-45c4-b80c-0b13ab37028b",
+			"id": "81e1e9a1-7942-4878-a5fe-5a74048f8d15",
 			"key": "baseUrl",
 			"value": "localhost:3000",
 			"type": "string"
