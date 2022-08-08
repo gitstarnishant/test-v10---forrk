@@ -1,7 +1,7 @@
 openapi: "3.0.0"
 info:
   version: 1.0.0
-  title: Swagger Petstore 123gvddd
+  title: Swagger Petstore 123gvdddkgi
   license:
     name: MIT
 servers:
