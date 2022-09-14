@@ -16,14 +16,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "www.google.com/kgk",
+					"raw": "www.google.com/kgkhjjx",
 					"host": [
 						"www",
 						"google",
 						"com"
 					],
 					"path": [
-						"kgk"
+						"kgkhjjx"
 					]
 				}
 			},
